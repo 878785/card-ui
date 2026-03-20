@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  min-height: 100vh;
+}
+
+/* GRID CONTAINER */
+.parent{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 380px));
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+}
+
+.flex{
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 380px));
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+}
+
+/* CARD */
+.card{
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* TOP SECTION */
+.Top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo img{
+  width: 60px;
+  border-radius: 10px;
+}
+
+.bookmark button{
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+/* CENTER */
+.Center{
+  margin-top: 20px;
+}
+
+.Need_IMF h2{
+  margin-bottom: 5px;
+}
+
+.Need_IMF span{
+  color: gray;
+  font-size: 14px;
+}
+
+.work_Time{
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.part_time{
+  background: #f1f1f1;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+/* BOTTOM */
+.hour{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.hour p{
+  color: gray;
+}
+
+.Apply_btn{
+  margin-top: 20px;
+}
+
+.Apply_btn button{
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
